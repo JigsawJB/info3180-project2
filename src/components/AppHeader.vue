@@ -1,9 +1,10 @@
-<template>
+<<template>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Lab 7</a>
-        <button
+      <img id="carlogo" src="../assets/carlogo.png"/>
+      <a class="navbar-brand" href="/">United Auto Sales</a>
+      <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -35,4 +36,11 @@ import { RouterLink } from "vue-router";
 
 <style>
 /* Add any component specific styles here */
+header{
+  margin-bottom: 0;
+}
+img#carlogo{
+  width: 1.25rem;
+  margin: 0 1em 0 1em;
+}
 </style>
