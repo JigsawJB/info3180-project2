@@ -22,6 +22,47 @@ def index():
     return jsonify(message="This is the beginning of our API")
 
 
+@app.route('/api/register')
+def register():
+    pass
+
+@app.route('/api/auth/login')
+def login():
+    pass
+
+@app.route('/api/auth/logout')
+def logout():
+    pass
+
+@app.route('/api/cars')
+def get_cars():
+    pass
+
+@app.route('/api/cars')
+def add_cars():
+    pass
+
+@app.route('/api/cars/{car_id}')
+def car_detail():
+    pass 
+
+@app.route('/api/cars/{car_id}/favourite')
+def favourite_car():
+    pass
+
+@app.route('/api/search')
+def search_car():
+    pass
+
+@app.route('/api/users/{user_id}')
+def user_details():
+    pass
+
+@app.route('/api/users/{user_id}/favourites')
+def user_favourites():
+    pass
+
+
 ###
 # The functions below should be applicable to all Flask apps.
 ###
